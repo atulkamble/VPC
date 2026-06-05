@@ -1,7 +1,3 @@
-For a **full AWS VPC document**, I recommend structuring it as a complete training guide with **theory → concepts → architecture → IP planning → connectivity → security → troubleshooting → hands-on labs → interview questions**.
-
-The complete document should follow this sequence:
-
 # AWS VPC (Virtual Private Cloud) Master Guide
 
 ## Section 1: Networking Fundamentals
