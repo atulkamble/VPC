@@ -1,6 +1,5 @@
 ## AWS Networking Fundamentals – Before Learning VPC
 
-Before learning Amazon VPC (Virtual Private Cloud), you should understand these basic networking concepts.
 
 | #  | Concept           | Significance / Why Important                          | Short Example                 |
 | -- | ----------------- | ----------------------------------------------------- | ----------------------------- |
@@ -52,13 +51,3 @@ Before learning Amazon VPC (Virtual Private Cloud), you should understand these 
 | `192.168.1.10/32` | 1                  | Specific host IP   |
 
 AWS Note: AWS reserves five IPv4 addresses in each subnet. Therefore, a `/24` subnet provides 251 usable IPv4 addresses in AWS.
-
-## How These Concepts Connect to AWS VPC
-
-Conceptual VPC diagram. Actual traffic access depends on route tables, public IP assignments, security groups and network ACLs.
-
-## Recommended Learning Order
-
-Networking Basics → IP Addressing → Subnetting → CIDR → Routing → DNS → TCP/UDP → Ports → Firewall → NAT → AWS VPC
-
-Once these concepts are clear, learn AWS VPC components: VPC, Subnets, Route Tables, Internet Gateway, NAT Gateway, Security Groups, NACLs, VPC Peering, VPC Endpoints, VPN and Transit Gateway.
